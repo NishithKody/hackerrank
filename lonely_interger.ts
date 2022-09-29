@@ -64,3 +64,19 @@ function main() {
 
     ws.end();
 }
+
+
+
+//We can use set also. Since it is given that other integers will occur exactly twice
+// public static int lonelyinteger(List < Integer > a) {
+//      HashSet < Integer > hs = new HashSet < Integer > ();
+//      for (int i: a) {
+//          if (hs.contains(i)) {
+//              hs.remove(i);
+//          } else {
+//              hs.add(i);
+//          };
+//      }
+//      //Return the only element remaining in the set.
+//      return hs.iterator().next();
+//  }
